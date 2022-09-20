@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- HTML Meta Tags -->
+    <title>User Dashboard (Interview Question)</title>
+    <meta
+      name="description"
+      content="An interview question given by Examiner."
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://kaiweb009.netlify.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="User Dashboard (Interview Question)" />
+    <meta
+      property="og:description"
+      content="An interview question given by Examiner."
+    />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/nbYJCYD/chrome-NTFDmsu358.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="kaiweb009.netlify.app" />
+    <meta property="twitter:url" content="https://kaiweb009.netlify.app" />
+    <meta name="twitter:title" content="User Dashboard (Interview Question)" />
+    <meta
+      name="twitter:description"
+      content="An interview question given by Examiner."
+    />
+    <meta
+      name="twitter:image"
+      content="https://i.ibb.co/nbYJCYD/chrome-NTFDmsu358.png"
+    />
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      async
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      async
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" media="all" type="text/css" />
+    <script defer src="index.js" type="module"></script>
+
+    <title>User Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__logo">
+          User
+          <span class="header__logo--normal">list</span>
+        </h1>
+        <nav class="header__nav">
+          <div class="header__iconBox">
+            <div class="header__icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="header__iconBox">
+            <div class="header__icon">
+              <ion-icon name="notifications-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="header__user">
+            <img
+              class="header__image"
+              alt="User photo"
+              src="img/alex-suprun-ZHvM3XIOHoE-unsplash.jpg"
+            />
+            <span class="header__name">Alex Suprun</span>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <aside class="sidebar">
+          <ul class="sidebar__nav">
+            <li class="sidebar__item">
+              <div href="#" class="sidebar__iconBox">
+                <ion-icon name="business-outline"></ion-icon>
+              </div>
+              <span class="sidebar__name">Company</span>
+            </li>
+
+            <li class="sidebar__item sidebar__item--active">
+              <div href="#" class="sidebar__iconBox">
+                <ion-icon name="people-outline"></ion-icon>
+              </div>
+              <span class="sidebar__name">Users</span>
+            </li>
+
+            <li class="sidebar__item">
+              <div href="#" class="sidebar__iconBox">
+                <ion-icon name="pricetag-outline"></ion-icon>
+              </div>
+              <span class="sidebar__name">Expenses</span>
+            </li>
+
+            <li class="sidebar__item">
+              <div href="#" class="sidebar__iconBox">
+                <ion-icon name="file-tray-outline"></ion-icon>
+              </div>
+              <span class="sidebar__name">Assets</span>
+            </li>
+
+            <li class="sidebar__item">
+              <div href="#" class="sidebar__iconBox">
+                <ion-icon name="bar-chart-outline"></ion-icon>
+              </div>
+              <span class="sidebar__name">BI</span>
+            </li>
+
+            <li class="sidebar__item">
+              <div href="#" class="sidebar__iconBox">
+                <ion-icon name="happy-outline"></ion-icon>
+              </div>
+              <span class="sidebar__name">Recruiting</span>
+            </li>
+
+            <li class="sidebar__item">
+              <div href="#" class="sidebar__iconBox">
+                <ion-icon name="body-outline"></ion-icon>
+              </div>
+              <span class="sidebar__name">HR</span>
+            </li>
+
+            <li class="sidebar__item">
+              <div href="#" class="sidebar__iconBox">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+              <span class="sidebar__name">Sales</span>
+            </li>
+
+            <li class="sidebar__item">
+              <div href="#" class="sidebar__iconBox">
+                <ion-icon name="storefront-outline"></ion-icon>
+              </div>
+              <span class="sidebar__name">Projects</span>
+            </li>
+
+            <li class="sidebar__item">
+              <div href="#" class="sidebar__iconBox">
+                <ion-icon name="hand-left-outline"></ion-icon>
+              </div>
+              <span class="sidebar__name">Admin</span>
+            </li>
+          </ul>
+        </aside>
+        <section class="content">
+          <div class="content__nav">
+            <div class="content__nav--left">
+              <button class="content__button">
+                <div class="content__iconBox">
+                  <ion-icon name="push-outline"></ion-icon>
+                </div>
+                <span class="content__button--text">Export</span>
+              </button>
+              <button class="content__button">
+                <div class="content__iconBox">
+                  <ion-icon name="download-outline"></ion-icon>
+                </div>
+                <span class="content__button--text">Import</span>
+              </button>
+              <button class="content__button content__button--orange">
+                <div class="content__iconBox">
+                  <ion-icon name="trash-outline"></ion-icon>
+                </div>
+                <span class="content__button--text">Delete</span>
+              </button>
+            </div>
+
+            <div class="content--right">
+              <div class="content__nav--right">
+                <button class="content__button">
+                  <div class="content__iconBox">
+                    <ion-icon name="filter-outline"></ion-icon>
+                  </div>
+                  <span class="content__button--text">Sort by</span>
+                </button>
+
+                <form action="#" class="search">
+                  <button class="search__button">
+                    <ion-icon name="search-outline"></ion-icon>
+                  </button>
+                  <input
+                    type="search"
+                    class="search__input"
+                    placeholder="Search here"
+                  />
+                </form>
+
+                <button class="content__button content__button--blue">
+                  <div class="content__iconBox">
+                    <ion-icon name="add-outline"></ion-icon>
+                  </div>
+                  <span class="content__button--text">Add new</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="content__table">
+            <table class="content__tableContainer">
+              <thead class="content__tableHeader">
+                <tr class="content__tableHeaderRow">
+                  <th>First name</th>
+                  <th>Last name</th>
+                  <th>Major</th>
+                  <th>Address</th>
+                  <th>Registration number</th>
+                  <th>Contact number</th>
+                </tr>
+              </thead>
+              <tbody class="content__tableBody">
+                <!-- <tr class="content__tableBodyRow" data-rowId="1">
+                  <td class="content__firstName">
+                    <div class="content__user">
+                      <img
+                        src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                        alt="Vanessa Dam"
+                        class="content__userImage"
+                      />
+                      <span class="content__userName">Julian</span>
+                    </div>
+                  </td>
+                  <td class="content__lastName">Wan</td>
+                  <td class="content__major">Biochemical Engineering</td>
+                  <td class="content__address">
+                    091 Bergstrom Track, Apt. 064, 77095-9244, Port Brandtland,
+                    Kansas, United States
+                  </td>
+                  <td class="content__regNum">001</td>
+                  <td class="content__contact">(441) 543-6972</td>
+                  <td class="content__contact">
+                    <div class="content__box">
+                      <div class="content__ionDelete">
+                        <ion-icon name="close-outline"></ion-icon>
+                      </div>
+                      <div class="content__ionUpdate">
+                        <ion-icon name="create-outline"></ion-icon>
+                      </div>
+                    </div>
+                  </td>
+                </tr> -->
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+    <div class="overlay hidden"></div>
+    <div class="create__window hidden">
+      <div class="create__header">
+        <h2 class="create__title">Create new student</h2>
+        <span class="create__subheading">Fill in required user info</span>
+      </div>
+      <form action="#" class="create__form" id="userForm">
+        <div class="create__group">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstName"
+            required
+            placeholder="Justin"
+          />
+        </div>
+
+        <div class="create__group">
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastName"
+            required
+            placeholder="Bieber"
+          />
+        </div>
+
+        <div class="create__group">
+          <label for="imageLink">Image URL</label>
+          <input
+            type="text"
+            id="imageLink"
+            name="imageUrl"
+            required
+            placeholder="https://images.unsplash.com/photo-1499651681375-8afc5a4db253?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1397&q=80"
+          />
+        </div>
+
+        <div class="create__group">
+          <label for="major">Major</label>
+          <input
+            type="text"
+            id="major"
+            name="major"
+            required
+            placeholder="Social Sciences"
+          />
+        </div>
+
+        <div class="create__group">
+          <label for="address">Street Address</label>
+          <input
+            type="text"
+            id="address"
+            name="address"
+            required
+            placeholder="583 Dicki Field, Apt. 372, 61094-2639, Port Gabriella, Nebraska, United States"
+          />
+        </div>
+
+        <div class="create__group">
+          <label for="cNum">Contact Number</label>
+          <input
+            type="text"
+            id="cNum"
+            name="contactNumber"
+            required
+            placeholder="(441) 543-6972"
+          />
+        </div>
+
+        <div class="create__buttonGroup">
+          <button class="create__buttonCancel" type="button">Cancel</button>
+          <button class="create__buttonSubmit" type="submit">Add</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="update__window hidden">
+      <div class="create__header">
+        <h2 class="create__title">Update current student</h2>
+        <span class="create__subheading">Fill in required user info</span>
+      </div>
+      <form action="#" class="create__form" id="updateForm">
+        <div class="create__group">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstName" required />
+        </div>
+
+        <div class="create__group">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastName" required />
+        </div>
+
+        <div class="create__group">
+          <label for="imageLink">Image URL</label>
+          <input type="text" id="imageLink" name="imageUrl" required />
+        </div>
+
+        <div class="create__group">
+          <label for="major">Major</label>
+          <input type="text" id="major" name="major" required />
+        </div>
+
+        <div class="create__group">
+          <label for="address">Street Address</label>
+          <input type="text" id="address" name="address" required />
+        </div>
+
+        <div class="create__group">
+          <label for="cNum">Contact Number</label>
+          <input type="text" id="cNum" name="contactNumber" required />
+        </div>
+
+        <div class="update__buttonGroup">
+          <button class="update__buttonCancel" type="button">Cancel</button>
+          <button class="update__buttonSubmit" type="submit">Add</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
